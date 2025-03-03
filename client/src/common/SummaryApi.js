@@ -1,4 +1,4 @@
-export const baseURL = https://clickitecommerce.vercel.app
+export const baseURL = "https://clickitecommerce.vercel.app"
 
 const SummaryApi = {
     register : {

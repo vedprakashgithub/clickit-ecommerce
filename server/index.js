@@ -37,8 +37,11 @@ app.get("/", (req, res) => {
     res.json({ message: `Server is running on port ${PORT}` });
 });
 
+// Ping route
 app.get("/ping", (req, res) => {
     res.json({ message: "pong" });
+});
+
 
 // API routes
 app.use('/api/user', userRouter);
